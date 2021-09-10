@@ -1,5 +1,6 @@
 package main
 
+//hello
 // out input query inUse
 // array of fork_output channels
 var F_IN [PHILOSOPHERS]chan int
