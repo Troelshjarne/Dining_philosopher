@@ -7,7 +7,7 @@ const PHILOSOPHERS = 5
 func main() {
 
 	go InitPhilChans()
-	go Default_value()
+	go DefaultValue()
 
 	time.Sleep(time.Millisecond * 1500)
 
