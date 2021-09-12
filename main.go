@@ -9,6 +9,7 @@ func main() {
 	go InitPhilChans()
 	go DefaultValue()
 
+	go AnswerQuery(0)
 	time.Sleep(time.Millisecond * 1500)
 
 }
